@@ -1,29 +1,14 @@
 html {
-    background:-webkit-repeating-linear-gradient(45deg, rgb(255, 255, 255) 0%, rgb(62, 150, 255) 10%);
-}
-.like {
     display: block;
     width: 800px; 
     height: 800px;
-    margin:0 auto;
+    margin: 0 auto;
     background: url(video.gif) 0 0 no-repeat;
-    background-size: 3000%;
-    animation: like-gif steps(28) 1s infinite both;
+    background-size: 100%;
 }
-.pause {
-    animation-play-state: paused;
-}
+
 div {
   width:100px;
   margin:0 auto;
   text-align:center;
-}
-
-@keyframes like-gif {
-  0% {
-    background-position: 0%;
-  }
-  100% {
-    background-position: 100%;
-  }
 }
