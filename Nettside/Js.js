@@ -1,1 +1,0 @@
-ingenting hær ass
