@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+}
+
+/* MAIN1 CSS */
+
+#main1 {
+    max-width: 900px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 99;
+    position: relative;
+    background-color: #210002;
+}
+
+/* NAV CSS */
+
+nav {
+	position: relative;
+	width: 100%;
+	height: 150px;
+	top: 0;
+	text-align: center;
+}
+
+nav a:first-child:link {
+	color: #fff;
+	text-decoration: none;
+	margin: 0;
+}
+
+nav a:first-child:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:first-child:img {
+	width: 120px;
+	height: 87;
+	margin-top: 300px;
+}
+
+#slide-toggle:link {
+	position: absolute;
+	right: 30px;
+	top: 30px;
+	font-size: 38px;
+	color: white;
+	text-decoration: none;
+}
+
+#slide-toggle:visited {
+	color: white;
+	text-decoration: none;
+}
