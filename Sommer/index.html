@@ -7,19 +7,27 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
     <link type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <script src="main.js"></script>
 </head>
 
 <body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="aktiviteter.html">Aktiviteter</a>
+        <a href="#">...</a>
+        <!-- Kanskje ha om meg/pinup? -->
+        <a href="#">...</a>
+    </div>
     <div id="ramme1">
-        <h1>Sommerminne 2006?</h2>
-            <div id="img">
-                <img src="Bilder/Sommerbilde1.jpg" height="250">
-                <img src="Bilder/Sommerbilde2.jpg" height="250">
-                <a href="aktiviteter.html" id="slide-toggle">
-                    AKTIVITETER
-                </a>
-            </div>
-            <h4><a href="https://www.diplom-is.no/merker/pinneis-kjeksis/pinup">Pinup</a> - supert isvalg! :-)</h4>
+        <span onclick="openNav()" id="icon"><i class="ion-navicon-round"></i></span>
+        <div id="ramme2">
+            <h1>Sommerminne 2006?</h2>
+                <div id="img">
+                    <img src="Bilder/Sommerbilde1.jpg" height="250">
+                    <img src="Bilder/Sommerbilde2.jpg" height="250">
+                </div>
+                <h4><a id="a2" href="https://www.diplom-is.no/merker/pinneis-kjeksis/pinup">Pinup</a> - supert isvalg! :-)</h4>
+        </div>
     </div>
 </body>
 
