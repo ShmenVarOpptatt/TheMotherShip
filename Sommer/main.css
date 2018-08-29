@@ -1,39 +1,57 @@
-html {
-  box-sizing:border-box 
+body {
+    margin: 0;
+    color: white;
+    background-image: url(Bilder/)
 }
+
+#ramme1 {
+    text-align: center;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    max-width: 900px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100%;
+    background-color: #210002;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#list {
+    text-align: left;
+    position: absolute;
+    top: 100px;
+    left: 15%;
+}
+
+img {
+    border: solid 3px #fff;
+    align-content: center;
+}
+
+#img1 {
+    position: absolute;
+    top: 135px;
+    left; 20%;
+    border: solid 3px #fff;
+    align-content: left;
+}
+
 a {
-	background-color:transparent;-webkit-text-decoration-skip:objects
-}
-a:active,a:hover {
-	outline-width:0
-}
-abbr[title]{
-	border-bottom: none;
-	text-decoration: underline;
-	text-decoration: underline dotted
-}
-.p-left: {
-	float:left !important
-}
-.p-right {
-	float:right !important
-}
-.p-button: hover{
-	color:#000 !important;
-	background-color:#ccc !important
-}
-.p-white,.p-hover-white:hover {
-	color:#000!important;
-	background-color:#fff !important
-}
-.p-right-align {
-	text-align:right !important
+    color: #fff;
+    text-decoration: none;
 }
 
-.p-justify {
-	text-align:justify !important
+#slide-toggle:link {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 38px;
+    color: white;
+    text-decoration: none;
 }
 
-.p-center {
-	text-align:center !important
+#slide-toggle:visited {
+    color: white;
+    text-decoration: none;
 }
