@@ -1,7 +1,8 @@
 body {
     margin: 0;
     color: white;
-    background-image: url(Bilder/background.png)
+    background-image: url(Bilder/background.png);
+    background-size: cover;
 }
 
 #ramme1 {
@@ -12,7 +13,6 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     height: 100%;
-    background-color: #210002;
     margin-left: auto;
     margin-right: auto;
 }
