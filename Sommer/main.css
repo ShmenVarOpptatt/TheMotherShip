@@ -117,3 +117,28 @@ a {
         font-size: 18px;
     }
 }
+
+.section .feature {
+	width: 100%;
+    max-width: none;
+    margin: 50px auto 120px;
+    text-align: center;
+}
+
+.section {
+	color: #ffaf00;
+}
+/* Video */
+#video {
+	height: 345;
+	width: 420;
+    position: relative;
+    align-content: center;
+    padding-bottom: 56.1%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* font: inherit; */
+    vertical-align: top;
+}
