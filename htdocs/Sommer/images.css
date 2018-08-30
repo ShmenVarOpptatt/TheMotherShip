@@ -1,0 +1,46 @@
+#img1 {
+      position: relative;
+      border: solid 3px #fff;
+      align-content: center;
+      top: 270;
+}
+
+#img21, #img22, #img23 {
+      position: relative;
+      border: solid 3px #fff;
+      align-content: center;
+}
+
+#img21 {
+      top: 250px;
+      right: 30px;
+}
+
+#img22 {
+      top: 250px;
+}
+
+#img23 {
+      top: 250px;
+      left: 30px;
+}
+
+#img3 {
+      position: relative;
+      background-size: cover;
+      border: solid 3px #fff;
+}
+
+#img4 {
+      position: absolute;
+}
+
+#img5 {
+      text-align: left;
+      position: absolute;
+      top: 255px;
+}
+
+.img5 {
+      border: solid 1px white;
+}
