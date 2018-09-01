@@ -1,0 +1,33 @@
+COLOR SCHEME - MAIN:
+
+#fff/white - Text color
+
+#1A1A1D - 1. Background
+
+#4E4E50 - 2. Background
+
+#6F2232 - Dark main color
+
+#950750 - Main color
+
+#C3073F - Light main color
+
+---------------------------------------------
+
+COLOR SCHEME - SOMMERMINNE:
+
+#fff/white - Text color
+
+#EDEAE5 - 1. Background
+
+# - 2. Background / Uninportant text
+
+#6F2232 - Dark main color
+
+#950750 - Main color
+
+#C3073F - Light main color
+
+---------------------------------------------
+
+#
