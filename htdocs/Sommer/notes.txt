@@ -29,5 +29,3 @@ COLOR SCHEME - SOMMERMINNE:
 #C3073F - Light main color
 
 ---------------------------------------------
-
-#

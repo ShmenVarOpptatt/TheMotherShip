@@ -1,10 +1,9 @@
 html {
 	background-color: #1A1A1D;
 	color: #fff;
-	font-family: "Consolas";
-	font-weight: 300;
+	font-family: 'Space Mono', monospace;
+	font-weight: 500;
 	font-style: normal;
-	text-align: center;
 	font-size: 20px;
 }
 
@@ -15,8 +14,8 @@ html {
 */
 
 a:link, a:visited {
-	color: #950750;
-	text-decoration: underline;
+	color: #C3073F;
+	text-decoration: none;
 	transition: color 0.2s;
 }
 
