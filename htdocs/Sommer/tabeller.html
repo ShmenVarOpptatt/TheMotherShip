@@ -4,49 +4,81 @@
 		<meta charset="UTF=8">
 		<title>Tabeller</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
-		<link type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
 	</head>
+	<style>
+		h1 {
+		padding: 15px;
+		}
+		img {
+			align-content: center;
+			border: solid 2px #EDEAE5
+		}
+		#text1 {
+			text-align: left;
+			padding-left: 30px;
+			line-height: 30px;
+		}
+		#tabell {
+			font.size: 25px;
+			padding-top: 15px;
+		}
+		.column {
+			float: left;
+			padding-top: 10px;
+			padding-right: 10px;
+		}
+		.vidde {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	</style>
 	<body>
-		<div id="ramme2">
-			<h2>Enighet i gruppa?</h2>
-			<div id="text">
+		<div id="navbox">
+			<nav>
+				<ul>
+					<ul id="nav-home"><a href="../index.html"><strong>Hjemmeside</strong></a></ul>
+					<ul id="nav-home"><a href="javascript:history.back()"><strong>Tilbake</strong></a></ul>
+					<ul id="nav-dir"><a href="aktiviteter.html"><strong>Aktiviteter</strong></a></ul>
+					<ul id="nav-dir"><a href="tabeller.html"><strong>Tabeller</strong></a></ul>
+					<ul id="nav-dir"><a href="index.html"><strong>Sommerminne 2018?</strong></a></ul>
+				</ul>
+			</nav>
+		</div>
+		<div id="mainbox">
+			<h1>Enighet i gruppa?</h1>
+			<div id="text1">
 				<p>Vi i gruppa diskuterte politikk, kinotur og reisemål.</p>
 				<p>Dette ble alle enige om:</p>
-				<hr>
-				<table>
-					<tr>
-						<th class="vidde"> <b>Aktivitet </b></th>
-						<th> <b>Enighet</b> </th>
-					</tr>
-					<tr>
-						<td class="vidde"> Politisk mål </td>
-						<td> Global Oppvarming </td>
-					</tr>
-					<tr>
-						<td class="vidde"> Kino </td>
-						<td> Avengers: Infinity War 2 </td>
-					</tr>
-					<tr>
-						<td class="vidde"> Reisemål </td>
-						<td> New Zealand</td>
-					</tr>
+				<div id="tabell">
+					<table>
+						<tr>
+							<th class="vidde"> <b>Aktivitet </b></th>
+							<th> <b>Enighet</b> </th>
+						</tr>
+						<tr>
+							<td class="vidde"> Politisk mål </td>
+							<td> Global Oppvarming </td>
+						</tr>
+						<tr>
+							<td class="vidde"> Kino </td>
+							<td class="vidde"> Avengers: Infinity War 2 </td>
+						</tr>
+						<tr>
+							<td class="vidde"> Reisemål </td>
+							<td> New Zealand</td>
+						</tr>
+					</div>
 				</table>
-				<hr>
-				<div id="img5">
-					<img class="img5" src="Bilder/globalwarming.jpg" height="250px">
-					<h3>Global oppvarming:</h3>
-					<p>Global oppvarming er global oppvarming</p>
-					<p>-</p>
-					<img class="img5" src="Bilder/kino.jpg" height="250px">
-					<h3>Kino:</h3>
-					<p>Avengers: Infinity War</p>
-					<p>-</p>
-					<img class="img5" src="Bilder/NewZealand.jpg" height="250px">
-					<h3><a id="link" href="https://www.newzealand.com/int/" target="_blank" rel="noopener noreferrer">New Zealand:</a></h3>
-					<p>New Zealand er et land</p>
-					<p>-</p>
+				<div class="column">
+					<img src="Bilder/globalwarming.jpg" height="250px">
+				</div>
+				<div class="column">
+					<img src="Bilder/kino.jpg" height="250px">
+				</div>
+				<div class="column">
+					<img src="Bilder/NewZealand.jpg" height="250px">
 				</div>
 			</div>
 		</div>
-	</body>
+	</div>
+</body>
