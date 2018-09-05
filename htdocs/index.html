@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="main.css">
-	<title>Mine sider i IT1</title>
+	<title>Mine sider - IT1</title>
 	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 </head>
 <style>
@@ -16,11 +16,12 @@
 		margin-top: 8%;
 		left: 8%;
 	}
-	
+
 	h3 {
 		line-height: 15px;
+		padding-bottom: 10px;
 	}
-	
+
 	#sitat p {
 		position: relative;
 		left: 15%;
@@ -43,12 +44,17 @@
 		width: 450px;
 		left: 8%;
 	}
-	
-	#sitat {
+
+	#imgsitat {
 		position: absolute;
 		top: 20px;
 		left: 850px;
 		font-size: 17.5px;
+	}
+
+	#sitat {
+		position: absolute;
+		left: -5px;
 	}
 
 </style>
@@ -58,13 +64,28 @@
 		<h1>Forside IT 2018/2019</h1>
 		<p id="desc">Dette er verdens mest gjennomtenkte beskrivelse av min forside.</p>
 		<div id="oppg">
-			<h3>Klikk klikk biestikk:</h3>
-			<a href="oppgaver.html">Oppgaver</a>
+			<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="front">
+						<h3>Klikk klikk biestikk:</h3>
+					</div>
+					<div class="back">
+						<h3>Klikk klikk rompeslikk:</h3>
+					</div>
+				</div>
+			</div>
+			<p><a href="oppgaver.html">Webdesign</a></p>
+			<p><a href="*">Teori</a></p>
+			<p><a href="*">PHP og MYSQL</a></p>
+			
 		</div>
 	</div>
-	<div id="sitat">
-	<img src="Sommer/Bilder/ProfilbildeTemp.png" width="350px">
-		<p>Sitat sitat en sur spinat</p>
+	<div id="imgsitat">
+		<img src="Sommer/Bilder/ProfilbildeTemp.png" width="350px">
+		<div id="sitat">
+			<p><i>"Sitat sitat en sur spinat"</i></p>
+			<p><i>- Jesus, 0 f.kr.</i></p>
+		</div>
 	</div>
 </body>
 
