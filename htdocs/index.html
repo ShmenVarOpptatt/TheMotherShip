@@ -3,7 +3,8 @@
 
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="stilark.css">
 	<title>Mine sider - IT1</title>
 	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 </head>
@@ -20,6 +21,10 @@
 	h3 {
 		line-height: 15px;
 		padding-bottom: 10px;
+	}
+
+	#ramme {
+		width: 630px;
 	}
 
 	#sitat p {
@@ -46,6 +51,7 @@
 	}
 
 	#imgsitat {
+		width: 350px;
 		position: absolute;
 		top: 20px;
 		left: 850px;
@@ -55,6 +61,19 @@
 	#sitat {
 		position: absolute;
 		left: -5px;
+	}
+
+	@media only screen and (max-width: 640px) {
+		#imgsitat {
+			position: relative;
+			top: 20px;
+			left: 8%;
+			font-size: 17.5px;
+		}
+
+		body {
+			width: 640px;
+		}
 	}
 
 </style>
@@ -77,7 +96,7 @@
 			<p><a href="oppgaver.html">Webdesign</a></p>
 			<p><a href="*">Teori</a></p>
 			<p><a href="*">PHP og MYSQL</a></p>
-			
+
 		</div>
 	</div>
 	<div id="imgsitat">
