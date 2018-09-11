@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+	color: #099;
+}
+
+body {
+	font-family: 'Space Mono', monospace;
+	color: #033;
+	background-color: #CC9;
+}
+a {
+	color: #099;
+	text-decoration: none;
+}
+
+.ledetekst {
+	color: #C3073F;
+	font-weight: bolder;
+}
+#ramme {
+	width: 90%;
+	position: absolute;
+	height: auto;
+	left: 5%;
+	top: 5%;
+}

@@ -13,15 +13,14 @@ html {
 	font-size: 16px;
 }
 
-a:link,
-a:visited {
-	color: #C3073F;
+a:link, a:visited {
+	color: #fff;
 	text-decoration: none;
 	transition: color 0.2s;
 }
 
 a:hover {
-	color: #fff;
+	color: #C3073F;
 }
 
 /* Så resten ikke trenger å være position: absolute; */
@@ -29,10 +28,7 @@ body {
 	position: relative;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
 	text-transform: uppercase;
 }
 
@@ -44,18 +40,14 @@ nav {
 	list-style: none;
 }
 
-table,
-tr,
-td,
-th {
+table, tr, td, th {
 	border: solid 1.5px #C3073F;
 	border-spacing: 0;
 	text-align: left;
 	font-size: 20px;
 }
 
-td,
-th {
+td, th {
 	padding-left: 10px;
 	color: white;
 }
