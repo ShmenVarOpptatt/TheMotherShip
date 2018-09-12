@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="width=1000; user-scalable=0;">
 	<link rel="stylesheet" type="text/css" href="stilark.css">
 	<title>Mine sider - IT1</title>
 	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
@@ -19,93 +20,35 @@
 		color: #383c43
 	}
 
-	h3 {
-		line-height: 15px;
-		padding-bottom: 10px;
-	}
-	
-	#ramme {
-		width: 630px;
-	}
-
-	#sitat p {
-		position: relative;
-		left: 15%;
-		width: 350;
-	}
-
-	#desc {
-		position: relative;
-		height: 200px;
-		width: 450px;
-		left: 8%;
-		padding-top: 20px;
-	}
-
-	#oppg {
-		position: relative;
-		margin-top: -100px;
-		margin-bottom: 50px;
-		height: -200px;
-		width: 450px;
-		left: 8%;
-	}
-
-	#imgsitat {
-		width: 350px;
-		position: absolute;
-		top: 20px;
-		left: 850px;
-	}
-
-	#sitat {
-		position: absolute;
-		left: -5px;
-		font-size: 17.5px;
-	}
-
-	@media only screen and (max-width: 690px) {
-		#imgsitat {
-			position: relative;
-			top: 20px;
-			left: 8%;
-			font-size: 17.5px;
-		}
-
-		body {
-			width: 640px;
-		}
-	}
-
 </style>
 
 <body>
-	<div id="ramme">
-		<div class"textsize">
-			<h1 class="head">Forside IT 2018/2019</h1>
-			<p id="desc">Dette er verdens mest gjennomtenkte beskrivelse av min forside.</p>
-			<div id="oppg">
-				<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-					<div class="flipper">
-						<div class="front">
-							<h3>Klikk klikk biestikk:</h3>
-						</div>
-						<div class="back">
-							<h3>Klikk klikk trondheimstrikk:</h3>
-						</div>
+	<div id="main-ramme">
+		<h1>Forside IT 2018/2019</h1>
+		<p id="main-desc">Dette er verdens mest gjennomtenkte beskrivelse av min forside.</p>
+		<div id="main-oppgtitle">
+			<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="front">
+						<h3>Klikk klikk biestikk:</h3>
+					</div>
+					<div class="back">
+						<h3>Klikk klikk trondheimstrikk:</h3>
 					</div>
 				</div>
-				<p><a href="oppgaver.html">Webdesign</a></p>
-				<p><a href="*">Teori</a></p>
-				<p><a href="*">PHP og MYSQL</a></p>
+				<div id="main-oppg">
+					<p><a href="oppgaver.html">Webdesign</a></p>
+					<p><a href="*">Teori</a></p>
+					<p><a href="*">PHP og MYSQL</a></p>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div id="imgsitat">
+	<div id="main-imgsitat">
 		<img src="Sommer/Bilder/ProfilbildeTemp.png" width="350px">
-		<div id="sitat">
-			<p class="sitat"><i>"Sitat sitat en sur spinat"</i></p>
-			<p class="sitat"><i>- Jesus, 0 f.kr.</i></p>
+		<div id="main-sitat">
+			<p><i>"Sitat sitat en sur spinat"</i></p>
+			<p><i>- Jesus, 0 f.kr.</i></p>
 		</div>
 	</div>
 </body>

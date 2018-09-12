@@ -36,6 +36,74 @@ hr {
 	background-color: black;
 }
 
+/* index.html */
+
+#main-ramme {
+	width: 630px;
+}
+
+#main-sitat p {
+	position: relative;
+	left: 15%;
+	width: 350;
+}
+
+#main-desc {
+	position: relative;
+	height: 200px;
+	width: 450px;
+	left: 8%;
+	padding-top: 20px;
+}
+
+#main-oppgtitle {
+	position: relative;
+	margin-top: -100px;
+	margin-bottom: 50px;
+	width: 450px;
+	left: 8%;
+}
+
+#main-oppg {
+	position: relative;
+	top: 40px;
+}
+
+#main-imgsitat {
+	width: 350px;
+	position: absolute;
+	top: 20px;
+	left: 850px;
+}
+
+#main-sitat {
+	position: absolute;
+	left: -5px;
+	font-size: 17.5px;
+}
+
+/* oppgaver.html */
+
+#oppg-ramme {
+	position: relative;
+	color: #73757a;
+	width: 80%;
+	margin-left: -40%;
+	left: 50%;
+	margin-top: 20px;
+	height: 500px;
+}
+
+#oppg-oppg {
+	position: relative;
+	height: 200px;
+	width: 800px;
+	top: 50px;
+	left: 8%;
+	font-weight: 500;
+}
+
+
 /* Nav bar */
 #navbox {
 	margin: 0px auto;
@@ -67,10 +135,11 @@ hr {
 .flip-container {
 	perspective: 1000px;
 }
-	/* flip the pane when hovered */
-	.flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateY(180deg);
-	}
+
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
 
 .flip-container, .front, .back {
 	width: 420px;
