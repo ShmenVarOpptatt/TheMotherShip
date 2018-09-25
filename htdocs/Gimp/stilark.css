@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: #fff;
+	color: #73757a;
+	font-family: 'Space Mono', monospace;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 20px;
+}
+
+a:link, a:visited {
+	color: #383c43;
+	text-decoration: none;
+	transition: color 0.2s;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #C3073F;
+}
+
+/* Så resten ikke trenger å være position: absolute; */
+body {
+	position: relative;
+}
+
+h1, h2, h3, h4 {
+	text-transform: uppercase;
+}
+
+hr {
+	background-color: black;
+}
+
+h2 {
+	text-decoration: underline;
+	padding-left: 7px;
+}
+
+img {
+	padding-left: 7px;
+	padding-bottom: 5px;
+	height: 75px;
+}
+
+#ramme {
+	position: relative;
+	color: #73757a;
+	width: 80%;
+	margin-left: -40%;
+	left: 50%;
+	margin-top: 20px;
+	height: 10%;
+}
+
+#innhold {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	top: 50px;
+	left: 4%;
+	font-weight: 500;
+	border-left: solid black 3px;
+	padding-right: 3px
+}
+
+/* Nav bar */
+#navbox {
+	margin: 0px auto;
+	width: 100%;
+	height: 40px;
+	background-color: #151922;
+	font-size: 25px;
+}
+
+#navbox a:visited, #navbox a:link {
+	color: #fff;
+}
+
+#navbox a:hover {
+	color: #C3073F;
+}
+
+#nav-home {
+	float: left;
+	padding-left: 25px;
+}
+
+#nav-dir {
+	float: right;
+	padding-right: 25px;
+}
