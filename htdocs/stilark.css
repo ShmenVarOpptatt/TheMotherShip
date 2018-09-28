@@ -1,26 +1,8 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-
-html {
-	background-color: #fff;
-	color: #73757a;
-	font-family: 'Space Mono', monospace;
-	font-weight: 500;
-	font-style: normal;
-	font-size: 20px;
-	margin: 0;
-    height:100%;
-    width:100%;
-    padding:0;
-}
-
 html, body {
-	margin: 0;
 	height:100%;
-	width:100%;
-	padding:0;
+	margin: 0;
+	font: 400 15px/1.8 "Space Mono", monospace;
+	color: #777;
 }
 
 a:link, a:visited {
@@ -38,13 +20,41 @@ h1, h2, h3, h4 {
 	text-transform: uppercase;
 }
 
-hr {
-	background-color: black;
+/* index.html */
+.bakgrunn-1, .bakgrunn-2{
+	position: relative;
+	opacity: 0.65;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-/* index.html */
+.bakgrunn-1 {
+	background-image: url("Bilder/CharlottenlundVGSBakgrunn.jpg");
+	height: 100%;
+}
 
-#inneramme1 {
+.caption {
+	position: absolute;
+	left: 0;
+	top: 30%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+}
+
+.caption span.ramme {
+	background-color: #1a1a1a;
+	color: white;
+	padding: 18px;
+	font-size: 72px;
+	font-weight: 1000;
+	letter-spacing: 10px;
+}
+
+/* Del 2 */
+
+#inneramme-1 {
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -52,56 +62,6 @@ hr {
 	padding-left: 120px;
 	box-sizing: border-box;
 	background-color: white;
-}
-
-#main-ramme, #main-img {
-	position: relative;
-	width:40%;
-	height:50%;
-	margin-right:10px;
-	float:left;
-}
-
-#main-img {
-	float: right;
-}
-
-#main-sitat p {
-	position: relative;
-	left: 40px;
-	width: 350;
-}
-
-#main-desc {
-	position: relative;
-	height: 200px;
-	width: 600px;
-	left: 40px;
-	padding-top: 20px;
-}
-
-#main-oppgtitle {
-	position: relative;
-	margin-top: -100px;
-	margin-bottom: 50px;
-	width: 450px;
-	left: 40px;
-}
-
-#main-imgsitat {
-	position: relative;
-}
-
-/* Del 2 */
-
-#inneramme2 {
-	display: block;
-	width: 100%;
-	height: 100%;
-	padding: 60px;
-	padding-left: 120px;
-	box-sizing: border-box;
-	background-color: gray;
 }
 
 /* oppgaver.html */
