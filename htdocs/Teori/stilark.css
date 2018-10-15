@@ -1,0 +1,29 @@
+table, tr, td, th {
+	border: solid 1.5px black;
+	border-spacing: 0;
+	text-align: left;
+	font-size: 15px;
+}
+
+td, th {
+	padding: 5px;
+}
+
+th {
+	  font-size: 20px;
+}
+
+li {
+}
+
+#tabell {
+	position: relative;
+	padding-top: 15px;
+	padding-right: auto;
+	padding-left: auto;
+}
+
+.vidde {
+	padding-left: 10px;
+	padding-right: 10px;
+}
