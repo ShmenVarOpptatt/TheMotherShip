@@ -3,14 +3,13 @@
 	padding: 0;
 }
 
-html {
-	background-color: #fff;
+html,body {
 	height: 100%;
 	font: 400 15px/1.8 "Space Mono", monospace;
 	color: #777;
 }
 
-a:link, a:visited {
+a:link,a:visited {
 	color: #383c43;
 	text-decoration: none;
 	transition: color 0.2s;
@@ -21,44 +20,56 @@ a:hover {
 	color: #C3073F;
 }
 
-/* Så resten ikke trenger å være position: absolute; */
-
-h1, h2, h3, h4 {
+h1,h2,h3,h4 {
 	text-transform: uppercase;
 }
 
-hr {
-	background-color: black;
-}
-
-h2 {
-	text-decoration: underline;
-	padding-left: 7px;
-}
-
-img {
-	padding-left: 7px;
-	padding-top: 5px;
-}
-
+/* oppgaver.html */
 #ramme {
 	position: relative;
 	color: #73757a;
-	width: 90%;
-	margin-left: -45%;
+	width: 80%;
+	margin-left: -40%;
 	left: 50%;
-	height: 10%;
+	top: 60px;
+	height: 500px;
 }
 
-#innhold {
+#head {
 	position: relative;
-	height: 100%;
+	height: auto;
+	width: 80%;
+	left: 8%;
+}
+
+#head h2 {
+	font-size: 42px;
+}
+
+#tabell {
+	border-collapse: collapse;
 	width: 100%;
-	top: 50px;
-	left: 4%;
-	font-weight: 500;
-	border-left: solid black 3px;
-	padding-right: 3px
+}
+
+#tabell td, #tabell th {
+	border: solid 1px black;
+	padding: 5px;
+}
+
+#tabell tr:nth-child(even) {
+	background-color: lightblue;
+}
+
+#tabell tr:hover  {
+	background-color: #ddd;
+}
+
+#tabell th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4286f4;
+    color: white;
 }
 
 /* Nav bar */
