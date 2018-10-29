@@ -56,6 +56,12 @@ h1,h2,h3,h4 {
 	letter-spacing: 10px;
 }
 
+.pil {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+
 /* Del 2 */
 #inneramme-1 {
 	display: block;
