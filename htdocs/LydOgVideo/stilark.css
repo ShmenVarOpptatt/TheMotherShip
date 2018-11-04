@@ -10,7 +10,8 @@ html {
 	color: #777;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
 	color: #383c43;
 	text-decoration: none;
 	transition: color 0.2s;
@@ -22,13 +23,11 @@ a:hover {
 }
 
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
 	text-transform: uppercase;
-}
-
-img {
-	padding-left: 7px;
-	padding-top: 5px;
 }
 
 #ramme {
@@ -46,51 +45,26 @@ img {
 	width: 100%;
 	top: 50px;
 	font-weight: 500;
-	border-left: solid black 3px;
 	padding-right: 3px;
 	text-align: center;
 }
 
-#toppLag h1 {
-	font-size: 36px;
-	text-align: center;
+#youtube {
+	float: left;
+	padding-left: 7%
 }
 
-#toppLag {
-	background-color: #C9C6C7;
-	border: 3px groove black;
-	height: 20%
+#respons {
+	float: right;
+	padding-right: 7%
 }
 
-#menyLag {
+.videoramme {
 	position: relative;
-}
-
-#fullVenstre {
-	position: absolute;
-	left: 0%;
-	top: 280px;
-	width: 45%;
-	height: 80%;
-	z-index: 3;
-	background-color: #C9C6C7;
-	text-align: center
-}
-
-#fullHoyre {
-	position: absolute;
-	left: 50%;
-	top: 280px;
-	width: 45%;
-	height: 80%;
-	z-index: 3;
-	background-color: #C9C6C7;
-	text-align: center
-}
-
-#felleslag {
-	width: 70%;
-	margin: 0 auto;
+	top: 0;
+	left: 0;
+	width: 400px;
+	height: 80vh;
 }
 
 /* Nav bar */
@@ -102,7 +76,8 @@ img {
 	font-size: 25px;
 }
 
-#navbox a:visited, #navbox a:link {
+#navbox a:visited,
+#navbox a:link {
 	color: #fff;
 }
 

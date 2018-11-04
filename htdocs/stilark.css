@@ -3,13 +3,15 @@
 	padding: 0;
 }
 
-html,body {
+html,
+body {
 	height: 100%;
 	font: 400 15px/1.8 "Space Mono", monospace;
 	color: #777;
 }
 
-a:link,a:visited {
+a:link,
+a:visited {
 	color: #383c43;
 	text-decoration: none;
 	transition: color 0.2s;
@@ -20,12 +22,17 @@ a:hover {
 	color: #C3073F;
 }
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
 	text-transform: uppercase;
 }
 
 /* index.html */
-.bakgrunn-1, /* .bakgrunn-2 */ {
+.bakgrunn-1,
+/* .bakgrunn-2 */
+	{
 	position: relative;
 	opacity: 0.65;
 	background-position: center;
@@ -58,8 +65,8 @@ h1,h2,h3,h4 {
 
 .pil {
 	position: fixed;
+	content-align: center;
 	bottom: 0px;
-	right: 0px;
 }
 
 /* Del 2 */
@@ -96,7 +103,7 @@ h1,h2,h3,h4 {
 
 .Biotekstlag {
 	grid-area: Biotekstlag;
-	
+
 }
 
 .Oppgaver {
@@ -161,7 +168,8 @@ h1,h2,h3,h4 {
 	font-size: 25px;
 }
 
-#navbox a:visited, #navbox a:link {
+#navbox a:visited,
+#navbox a:link {
 	color: #fff;
 }
 
