@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	height: 100%;
+	font: 400 15px/1.8 "Space Mono", monospace;
+	color: #777;
+}
+
+h1 {
+	text-align: center;
+}
+
+#inneramme-1 {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 30px;
+	padding-left: 120px;
+	box-sizing: border-box;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.3fr 2.1fr 0.2fr 2.1fr 0.3fr;
+  grid-template-rows: 0.3fr 2.4fr 0.3fr;
+  grid-template-areas: ". . . . ." ". ramme1 . ramme2 ." ". . . . .";
+}
+
+.ramme1 {
+	grid-area: ramme1;
+	text-align: justify;
+}
+
+.ramme2 {
+	grid-area: ramme2;
+	text-align: justify;
+}
+
+/* Nav bar */
+#navbox {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	background-color: #151922;
+	font-size: 25px;
+}
+
+#navbox a:visited, #navbox a:link {
+	color: #fff;
+}
+
+#navbox a:hover {
+	color: #C3073F;
+}
+
+#navbox p {
+	text-decoration: line-through;
+}
+
+#nav-home {
+	float: left;
+	padding-left: 25px;
+}
+
+#nav-dir {
+	float: right;
+	padding-right: 25px;
+}
