@@ -3,8 +3,7 @@
 	padding: 0;
 }
 
-html,
-body {
+html, body {
 	height: 100%;
 	font: 400 15px/1.8 "Space Mono", monospace;
 	color: #777;
@@ -14,8 +13,7 @@ h1 {
 	text-align: center;
 }
 
-a:link,
-a:visited {
+a:link, a:visited {
 	color: #383c43;
 	text-decoration: none;
 	transition: color 0.2s;
@@ -31,35 +29,59 @@ a:hover {
 	display: block;
 	width: 100%;
 	height: 100%;
-	padding: 30px;
+	padding-top: 50px;
 	box-sizing: border-box;
 	z-index: -1;
 }
 
 .grid-container {
-	display: grid;
-	grid-template-columns: 0.3fr 2.1fr 0.2fr 2.1fr 0.3fr;
-	grid-template-rows: 0.3fr 2.4fr 0.3fr;
-	grid-template-areas: ". overskrift overskrift overskrift ."". ramme1 . ramme2 ."". . . . .";
+  display: grid;
+  grid-template-columns: 0.2fr 2.2fr 0.2fr 2.2fr 0.2fr;
+  grid-template-rows: 0.3fr 2.4fr 0.3fr;
+  grid-template-areas: ". overskrift overskrift overskrift ." ". ramme1 . ramme2 ." ". . . . .";
 }
 
 .overskrift {
 	grid-area: overskrift;
 	text-align: center;
-}
-
-.overskrift h1 {
-	font-size: 60px;
+	font-size: 28px;
 }
 
 .ramme1 {
-	grid-area: ramme1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr;
+  grid-template-areas: "ingress ingress" "ramme1tekst ramme1tekst";
+  grid-area: ramme1;
 	text-align: justify;
+	background-color: white;
+	padding-left: 100px;
+}
+
+.ingress {
+	grid-area: ingress;
+	text-align: left;
+}
+
+.ingress p {
+	font-size: 20px;
+}
+
+.ingress h2, .ramme2 h2, .ramme1tekst h2 {
+	text-align: center;
+	font-size: 27px;
+}
+
+.ramme1tekst {
+	grid-area: ramme1tekst;
+	padding-top: 15px;
 }
 
 .ramme2 {
 	grid-area: ramme2;
 	text-align: justify;
+		background-color: white;
+	padding-right: 100px;
 }
 
 /* Nav bar */
@@ -67,12 +89,11 @@ a:hover {
 	position: absolute;
 	width: 100%;
 	height: 40px;
-	background-color: #151922;
+	background-color: #1b1b1b;
 	font-size: 25px;
 }
 
-#navbox a:visited,
-#navbox a:link {
+#navbox a:visited, #navbox a:link {
 	color: #fff;
 }
 

@@ -3,48 +3,56 @@
 
 <head>
 	<meta charset="UTF=8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Aktiviteter</title>
 	<link rel="stylesheet" type="text/css" href="stilark.css">
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 </head>
 <style>
-	#list {
-		text-align: left;
-		padding: 10px 30px 10px 120px;
+	#liste {
+		padding: 10px 30px 10px 0px;
 	}
+	
+	li {
+        display:inline-block;
+        *display:inline; /*IE7*/
+        *zoom:1; /*IE7*/
+        margin-right:10px;
+}
 
-	#customimglay {
-		height: 270px;
-		padding: 23px;
-	}
 </style>
 
 <body>
 	<div id="navbox">
-		<nav>
-			<ul>
-				<ul id="nav-home"><a href="../oppgaver.html"><strong>Hjemmeside</strong></a></ul>
-				<ul id="nav-home"><a href="javascript:history.back()"><strong>Tilbake</strong></a></ul>
-				<ul id="nav-dir"><a href="aktiviteter.html"><strong>Aktiviteter</strong></a></ul>
-				<ul id="nav-dir"><a href="tabeller.html"><strong>Tabeller</strong></a></ul>
-				<ul id="nav-dir"><a href="index.html"><strong>Sommerminne 2018?</strong></a></ul>
-			</ul>
-		</nav>
+		<table>
+			<tr>
+				<td id="nav-home"><a href="../index.html"><strong>HJEM</strong></a></td>
+				<td id="nav-midd"><a href="aktiviteter.html"><strong>AKTIVITETER</strong></a></td>
+				<td id="nav-midd"><a href="index.html"><strong>SOMMERMINNE</strong></a></td>
+				<td id="nav-midd"><a href="tabeller.html"><strong>TABELLER</strong></a></td>
+				<td id="nav-dir"><a href="../oppgaver.html" ><strong>WEBDESIGN</strong></a></td>
+				<td id="nav-dir"><a href="../teori.html"><strong>TEORI</strong></a></td>
+				<td id="nav-dir"><p href="*"><strong>PHP&MYSQL</strong></p></td>
+			</tr>
+		</table>
 	</div>
-	<div id="mainbox">
+	<div id="ramme">
 		<h1>Aktiviteter!</h1>
-		<h2 id=list>Mine beste aktiviteter:</h2>
+		<h2>Mine beste aktiviteter:</h2>
 		<hr>
-		<ul id="list">
-			<li>Spise is</li>
-			<li>Se på solen</li>
-			<li>Å ikke skrive punkter</li>
-			<li>Spise is</li>
-			<li>Gåing</li>
-		</ul>
+		<div id="list">
+			<ul id="liste">
+				<li>Spise is</li> |
+				<li>Se på solen</li> |
+				<li>Å ikke skrive punkter</li> |
+				<li>Spise is</li> |
+				<li>Drikke vann</li>
+			</ul>
+		</div>
 		<hr>
-		<img src="Bilder/Pinup.png" id="customimglay">
-		<img src="Bilder/Sun.png" id="customimglay">
-		<img src="Bilder/sesolen.png" id="customimglay">
+		<img src="Bilder/Pinup.png" id="imglay">
+		<img src="Bilder/Sun.png" id="imglay">
+		<img src="Bilder/sesolen.png" id="imglay">
 	</div>
 </body>
 

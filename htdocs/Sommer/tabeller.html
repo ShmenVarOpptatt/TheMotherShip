@@ -3,86 +3,54 @@
 
 <head>
 	<meta charset="UTF=8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Tabeller</title>
 	<link rel="stylesheet" type="text/css" href="stilark.css">
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 </head>
-<style>
-	img {
-		align-content: center;
-		border: solid 2px #EDEAE5
-	}
-
-	#text1 {
-		text-align: left;
-		padding-left: 30px;
-		line-height: 30px;
-	}
-
-	#tabell {
-		font-size: 25px;
-		padding-top: 15px;
-	}
-
-	.column {
-		float: left;
-		padding-top: 10px;
-		padding-right: 10px;
-	}
-
-	.vidde {
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	
-</style>
 
 <body>
 	<div id="navbox">
-		<nav>
-			<ul>
-				<ul id="nav-home"><a href="../oppgaver.html"><strong>Hjemmeside</strong></a></ul>
-				<ul id="nav-home"><a href="javascript:history.back()"><strong>Tilbake</strong></a></ul>
-				<ul id="nav-dir"><a href="aktiviteter.html"><strong>Aktiviteter</strong></a></ul>
-				<ul id="nav-dir"><a href="tabeller.html"><strong>Tabeller</strong></a></ul>
-				<ul id="nav-dir"><a href="index.html"><strong>Sommerminne 2018?</strong></a></ul>
-			</ul>
-		</nav>
+		<table>
+			<tr>
+				<td id="nav-home"><a href="../index.html"><strong>HJEM</strong></a></td>
+				<td id="nav-midd"><a href="aktiviteter.html"><strong>AKTIVITETER</strong></a></td>
+				<td id="nav-midd"><a href="index.html"><strong>SOMMERMINNE</strong></a></td>
+				<td id="nav-midd"><a href="tabeller.html"><strong>TABELLER</strong></a></td>
+				<td id="nav-dir"><a href="../oppgaver.html" ><strong>WEBDESIGN</strong></a></td>
+				<td id="nav-dir"><a href="../teori.html"><strong>TEORI</strong></a></td>
+				<td id="nav-dir"><p href="*"><strong>PHP&MYSQL</strong></p></td>
+			</tr>
+		</table>
 	</div>
-	<div id="mainbox">
+	<div id="ramme">
 		<h1>Enighet i gruppa?</h1>
-		<div id="text1">
-			<p>Vi i gruppa diskuterte politikk, kinotur og reisemål.</p>
-			<p>Dette ble alle enige om:</p>
-			<div id="tabell">
-				<table>
-					<tr>
-						<th class="vidde"> <b>Aktivitet </b></th>
-						<th> <b>Enighet</b> </th>
-					</tr>
-					<tr>
-						<td class="vidde"> Politisk mål </td>
-						<td> Global Oppvarming </td>
-					</tr>
-					<tr>
-						<td class="vidde"> Kino </td>
-						<td class="vidde"> Avengers: Infinity War 2 </td>
-					</tr>
-					<tr>
-						<td class="vidde"> Reisemål </td>
-						<td> New Zealand</td>
-					</tr>
-			</div>
+		<p>Vi i gruppa diskuterte politikk, kinotur og reisemål.</p>
+		<p>Dette ble alle enige om:</p>
+		<div id="tabell">
+			<table>
+				<tr>
+					<th class="vidde"> <b>Aktivitet </b></th>
+					<th> <b>Enighet</b> </th>
+				</tr>
+				<tr>
+					<td class="vidde"> Politisk mål </td>
+					<td> Global Oppvarming </td>
+				</tr>
+				<tr>
+					<td class="vidde"> Kino </td>
+					<td class="vidde"> Avengers: Infinity War 2 </td>
+				</tr>
+				<tr>
+					<td class="vidde"> Reisemål </td>
+					<td> New Zealand</td>
+				</tr>
 			</table>
-			<div class="column">
-				<img src="Bilder/globalwarming.jpg" height="230px">
-			</div>
-			<div class="column">
-				<img src="Bilder/kino.jpg" height="230px">
-			</div>
-			<div class="column">
-				<img src="Bilder/NewZealand.jpg" height="230px">
-			</div>
 		</div>
-	</div>
+		<div id="bilde">
+			<img src="Bilder/globalwarming.jpg" class="bilde" height="230px">
+			<img src="Bilder/kino.jpg" class="bilde" height="230px">
+			<img src="Bilder/NewZealand.jpg" class="bilde" height="230px">
+		</div>
 	</div>
 </body>
