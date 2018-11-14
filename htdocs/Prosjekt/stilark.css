@@ -6,7 +6,7 @@
 html, body {
 	height: 100%;
 	font: 400 15px/1.8 "Space Mono", monospace;
-	color: #777;
+	color: #999;
 }
 
 h1 {
@@ -24,27 +24,50 @@ a:hover {
 	color: #C3073F;
 }
 
+.bakgrunn-1 {
+	background-image: url("Hjerneimplant.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 50px;
+}
+
+.overskrift {
+	position: absolute;
+	height: 50%;
+	width: 38%;
+	padding-top: 50px;
+	padding-left: 3%;
+	float: left;
+}
+
+.overskriftsize1 {
+	font-size: 5vw;
+	color: #09A5E5;
+}
+
+.overskriftsize2 {
+	font-size: 4vw;
+	color: #09A5E5;
+}
+
 #inneramme-1 {
 	position: relative;
 	display: block;
 	width: 100%;
 	height: 100%;
-	padding-top: 50px;
 	box-sizing: border-box;
-	z-index: -1;
+	background-color: #2f3847;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: 0.2fr 2.2fr 0.2fr 2.2fr 0.2fr;
+  grid-template-columns: 0.2fr 2.2fr 2.2fr 0.2fr;
   grid-template-rows: 0.3fr 2.4fr 0.3fr;
-  grid-template-areas: ". overskrift overskrift overskrift ." ". ramme1 . ramme2 ." ". . . . .";
-}
-
-.overskrift {
-	grid-area: overskrift;
-	text-align: center;
-	font-size: 28px;
+  grid-template-areas: ". . . ."". ramme1 ramme2 ." ". . . .";
+	grid-gap: 15px;
+	z-index: 1;
 }
 
 .ramme1 {
@@ -54,8 +77,8 @@ a:hover {
   grid-template-areas: "ingress ingress" "ramme1tekst ramme1tekst";
   grid-area: ramme1;
 	text-align: justify;
-	background-color: white;
-	padding-left: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .ingress {
@@ -79,18 +102,20 @@ a:hover {
 
 .ramme2 {
 	grid-area: ramme2;
-	text-align: justify;
-		background-color: white;
-	padding-right: 100px;
+	text-align: center;
+	padding-right: 50px;
+	padding-left: 50px;
 }
 
 /* Nav bar */
 #navbox {
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	height: 40px;
-	background-color: #1b1b1b;
+	background-color: #2f3847;
 	font-size: 25px;
+	border-bottom: solid black 2px;
+	opacity: 0.7;
 }
 
 #navbox a:visited, #navbox a:link {
