@@ -42,6 +42,10 @@ a:hover {
 	float: left;
 }
 
+.overskrift audio {
+	padding-top: 15px;
+}
+
 .overskriftsize1 {
 	font-size: 5vw;
 	color: #09A5E5;
