@@ -6,11 +6,7 @@
 html, body {
 	height: 100%;
 	font: 400 16px/1.8 "Space Mono", monospace;
-	color: #999;
-}
-
-h1 {
-	text-align: center;
+	color: #a5a5a5;
 }
 
 a:link, a:visited {
@@ -27,6 +23,14 @@ a:hover {
 iframe {
 	height: 25vw;
 	width: 39.0625vw;
+}
+
+h1, h2, h3, h4 {
+	color: #cccccc;
+}
+
+ul {
+	list-style-type: none;
 }
 
 .bakgrunn-1 {
@@ -65,32 +69,51 @@ iframe {
 	position: relative;
 	display: block;
 	width: 100%;
-	height: 100%;
+	height: auto;
+	background-repeat: no-repeat;
 	box-sizing: border-box;
 	background-color: #2f3847;
 }
 
+#inneramme-2 {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	background-color: #2f3847;
+}
+
+#inneramme-1 ul, li{
+	padding-left: 40px;
+}
+
 .grid-container {
-  display: grid;
-  grid-template-columns: 0.2fr 2.2fr 2.2fr 0.2fr;
-  grid-template-rows: 0.3fr 2.4fr 0.3fr;
-  grid-template-areas: ". . . ."". ramme1 ramme2 ." ". . . .";
+	display: grid;
+	grid-template-columns: 0.1fr 2.5fr 2.2fr 0.2fr;
+	grid-template-rows: 0.1fr 2.8fr 0.1fr;
+	grid-template-areas: ". . . ."". ramme1 ramme2 ." ". . . .";
 	grid-gap: 15px;
 	z-index: 1;
 }
 
 .ramme1 {
-  grid-area: ramme1;
+	grid-area: ramme1;
 	text-align: justify;
 	padding-left: 50px;
 	padding-right: 50px;
 }
 
+ramme1 h1 {
+	text-align: left;
+}
+
 .ramme2 {
 	grid-area: ramme2;
-	text-align: center;
 	padding-right: 50px;
 	padding-left: 50px;
+	text-align: center;
 }
 
 /* linker */
@@ -111,7 +134,7 @@ iframe {
 	background-color: #2f3847;
 	font-size: 25px;
 	border-bottom: solid black 2px;
-	opacity: 0.95;
+	opacity: 0.875;
 	z-index: 1
 }
 
