@@ -5,7 +5,7 @@
 
 html, body {
 	height: 100%;
-	font: 400 15px/1.8 "Space Mono", monospace;
+	font: 400 16px/1.8 "Space Mono", monospace;
 	color: #999;
 }
 
@@ -14,7 +14,7 @@ h1 {
 }
 
 a:link, a:visited {
-	color: #383c43;
+	color: #fff;
 	text-decoration: none;
 	transition: color 0.2s;
 	font-weight: bold;
@@ -24,19 +24,24 @@ a:hover {
 	color: #C3073F;
 }
 
+iframe {
+	height: 25vw;
+	width: 39.0625vw;
+}
+
 .bakgrunn-1 {
-	background-image: url("Hjerneimplant.jpg");
+	background-image: url("Bakgrunn.jpg");
 	height: 100%;
+	width: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: 50px;
 }
 
 .overskrift {
 	position: absolute;
 	height: 50%;
-	width: 38%;
+	width: 45%;
 	padding-top: 50px;
 	padding-left: 3%;
 	float: left;
@@ -75,33 +80,10 @@ a:hover {
 }
 
 .ramme1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.5fr 1fr;
-  grid-template-areas: "ingress ingress" "ramme1tekst ramme1tekst";
   grid-area: ramme1;
 	text-align: justify;
 	padding-left: 50px;
 	padding-right: 50px;
-}
-
-.ingress {
-	grid-area: ingress;
-	text-align: left;
-}
-
-.ingress p {
-	font-size: 20px;
-}
-
-.ingress h2, .ramme2 h2, .ramme1tekst h2 {
-	text-align: center;
-	font-size: 27px;
-}
-
-.ramme1tekst {
-	grid-area: ramme1tekst;
-	padding-top: 15px;
 }
 
 .ramme2 {
@@ -109,6 +91,16 @@ a:hover {
 	text-align: center;
 	padding-right: 50px;
 	padding-left: 50px;
+}
+
+/* linker */
+.linkramme {
+	padding-top: 40px;
+	width: 70%;
+	height: 90%;
+	margin: auto;
+	color: #fff;
+	background-color: #2f3847;
 }
 
 /* Nav bar */
@@ -119,7 +111,8 @@ a:hover {
 	background-color: #2f3847;
 	font-size: 25px;
 	border-bottom: solid black 2px;
-	opacity: 0.7;
+	opacity: 0.95;
+	z-index: 1
 }
 
 #navbox a:visited, #navbox a:link {
