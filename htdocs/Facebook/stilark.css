@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	height: 100%;
+	font-family: 'Space Mono', monospace;
+	color: #777;
+}
+
+a:link, a:visited {
+	color: #383c43;
+	text-decoration: none;
+	transition: color 0.2s;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #C3073F;
+}
+
+h1, h2, h3, h4, h5 {
+	color: black;
+}
+
+/* index.html */
+
+#inneramme-1 {
+	position: relative;
+	display: block;
+	top: 40px;
+	width: 100%;
+	height: 90%;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+
+#oppg-2 {
+	position: absolute;
+	height: auto;
+	width: 800px;
+	left: 8%;
+	font-size: 18px;
+}
+
+/* Nav bar */
+#navbox {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	background-color: #1b1b1b;
+	font-size: 25px;
+}
+
+#navbox a:visited, #navbox a:link {
+	color: #fff;
+}
+
+#navbox a:hover {
+	color: #C3073F;
+}
+
+#navbox p {
+	text-decoration: line-through;
+}
+
+#nav-home {
+	float: left;
+	padding-left: 25px;
+}
+
+#nav-dir {
+	float: right;
+	padding-right: 25px;
+}

@@ -70,6 +70,7 @@ ul {
 	display: block;
 	width: 100%;
 	height: auto;
+	overflow: auto;
 	background-repeat: no-repeat;
 	box-sizing: border-box;
 	background-color: #2f3847;
@@ -85,35 +86,40 @@ ul {
 	background-color: #2f3847;
 }
 
-#inneramme-1 ul, li{
+#inneramme-1 ul,
+li {
 	padding-left: 40px;
 }
 
-.grid-container {
-	display: grid;
-	grid-template-columns: 0.1fr 2.5fr 2.2fr 0.2fr;
-	grid-template-rows: 0.1fr 2.8fr 0.1fr;
-	grid-template-areas: ". . . ."". ramme1 ramme2 ." ". . . .";
-	grid-gap: 15px;
-	z-index: 1;
+#ramme1, #ramme2 {
+	width: 45%;
 }
 
-.ramme1 {
-	grid-area: ramme1;
+#ramme1 {
+	position: relative;
 	text-align: justify;
-	padding-left: 50px;
-	padding-right: 50px;
+	float: left;
+	margin: 25px;
 }
 
-ramme1 h1 {
-	text-align: left;
-}
-
-.ramme2 {
-	grid-area: ramme2;
-	padding-right: 50px;
-	padding-left: 50px;
+#ramme2 {
+	position: absolute;
 	text-align: center;
+	height: auto;
+	left: 50%;
+	margin: 25px;
+	float: left;
+}
+
+#ramme3 {
+	position: relative;
+	text-align: justify;
+	width: 90%;
+	top: 0;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-bottom: 25px;
+	float: left;
 }
 
 /* linker */
@@ -138,7 +144,8 @@ ramme1 h1 {
 	z-index: 1
 }
 
-#navbox a:visited, #navbox a:link {
+#navbox a:visited,
+#navbox a:link {
 	color: #fff;
 }
 
