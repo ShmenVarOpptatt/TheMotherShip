@@ -70,10 +70,9 @@ h1,h2,h3,h4 {
 #inneramme-1 {
 	position: relative;
 	display: block;
-	top: 40px;
+	top: 90px;
 	width: 100%;
-	height: 90%;
-	padding-top: 50px;
+	height: 3000px;
 	box-sizing: border-box;
 }
 
@@ -148,10 +147,10 @@ h1,h2,h3,h4 {
 
 /* Nav bar */
 #navbox {
-	position: absolute;
+	position: fixed;
+	z-index: 1;
 	width: 100%;
 	height: 40px;
-	background-color: #1b1b1b;
 	font-size: 25px;
 }
 

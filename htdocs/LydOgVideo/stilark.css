@@ -23,10 +23,7 @@ a:hover {
 }
 
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
 	text-transform: uppercase;
 }
 
@@ -72,17 +69,16 @@ h4 {
 	position: absolute;
 	width: 100%;
 	height: 40px;
-	background-color: #151922;
+	background-color: #b51f2c;
 	font-size: 25px;
 }
 
-#navbox a:visited,
-#navbox a:link {
+#navbox a:visited, #navbox a:link {
 	color: #fff;
 }
 
 #navbox a:hover {
-	color: #C3073F;
+	color: black;
 }
 
 #navbox p {

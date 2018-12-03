@@ -81,7 +81,7 @@ td {
 	position: absolute;
 	width: 100%;
 	height: 40px;
-	background-color: #1b1b1b;
+	background-color: #b51f2c;
 	font-size: 25px;
 }
 
@@ -90,7 +90,7 @@ td {
 }
 
 #navbox a:hover {
-	color: #C3073F;
+	color: black;
 }
 
 #navbox p {

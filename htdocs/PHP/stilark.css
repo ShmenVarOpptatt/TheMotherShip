@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	height: 100%;
+	font: 400 15px/1.8 "Space Mono", monospace;
+	color: #777;
+	text-align: center;
+}
+
+a:link, a:visited {
+	color: #383c43;
+	text-decoration: none;
+	transition: color 0.2s;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #C3073F;
+}
+
+h1,h2,h3,h4 {
+	text-transform: uppercase;
+	color: black;
+}
+
+/* index.html */
+
+#inneramme {
+	position: relative;
+	display: block;
+	top: 40px;
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+
+#innersteramme {
+	position: relative;
+	padding-left: 30px;
+}
+
+#colo {
+	font-size: 30px;
+	color: #C3073F;
+	font-weight: bold;
+}
+
+/* Nav bar */
+#navbox {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	font-size: 25px;
+	background-color: #4320e4;
+}
+
+#navbox a:visited, #navbox a:link {
+	color: #fff;
+}
+
+#navbox a:hover {
+	color: #C3073F;
+}
+
+#navbox p {
+	text-decoration: line-through;
+}
+
+#nav-home {
+	float: left;
+	padding-left: 25px;
+}
+
+#nav-dir {
+	float: right;
+	padding-right: 25px;
+}
