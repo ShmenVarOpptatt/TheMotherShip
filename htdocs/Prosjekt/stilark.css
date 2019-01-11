@@ -144,8 +144,7 @@ li {
 	z-index: 1
 }
 
-#navbox a:visited,
-#navbox a:link {
+#navbox a:visited, #navbox a:link {
 	color: #fff;
 }
 

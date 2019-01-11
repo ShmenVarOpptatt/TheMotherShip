@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	font: 400 22px/1.8 "Space Mono", monospace;
+	color: white;
+	font-weight: bold;
+}
+
+a:link, a:visited {
+	color: #383c43;
+	text-decoration: none;
+	transition: color 0.2s;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #C3073F;
+}
+
+img {
+	height: 22vh;
+}
+
+/* index.html */
+.inneramme {
+	background-image: url("bakgrunn2.jpg");
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#wrapper {
+	position: relative;
+	text-align: left;
+	top: 60px;
+	padding-left: 20%;
+}
+
+#tekst {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#bilder {
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Nav bar */
+#navbox {
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	background-color: #4320e4;
+	font-size: 25px;
+	border-bottom: solid black 2px;
+	opacity: 0.6;
+	z-index: 1
+}
+
+#navbox a:visited,#navbox a:link {
+	color: #fff;
+}
+
+#navbox a:hover {
+	color: black;
+}
+
+#navbox p {
+	text-decoration: line-through;
+}
+
+#nav-home {
+	float: left;
+	padding-left: 25px;
+}
+
+#nav-dir {
+	float: right;
+	padding-right: 25px;
+}
+
+#nav-home {
+	float: left;
+	padding-left: 25px;
+}
+
+#nav-dir {
+	float: right;
+	padding-right: 25px;
+}

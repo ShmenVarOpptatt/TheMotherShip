@@ -1,6 +1,6 @@
 <?php
 include "../kobling.php";
-$sql = "SELECT * FROM `person`";
+$sql = "SELECT * FROM `jul`";
 $datasett = $tilkobling->query($sql);
 ?>
 <!doctype html>
@@ -9,7 +9,7 @@ $datasett = $tilkobling->query($sql);
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="stilark.css">
-	<title>Min første navndatabase</title>
+	<title>Julenettside</title>
 	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 </head>
 
@@ -24,20 +24,19 @@ $datasett = $tilkobling->query($sql);
 			</ul>
 		</nav>
 	</div>
-	<div id="inneramme">
-		<div id="innersteramme">
-			<h1>Min første persondatabase</h1>
-			<br/>
-			<?php while($rad = mysqli_fetch_array($datasett)){?>
-			<p>
-				<b>Navn:</b>
-				<?php echo $rad["fornavn"]." ".$rad["etternavn"],"<br>" ?>
-				<b>Mobil:</b>
-				<?php echo $rad["mobil"]; ?> <br/><br/>
-			</p>
-			<?php } ?>
-			<?php echo date ("d. M - Y");?>
+	<div class="inneramme">
+		<?php while($rad = mysqli_fetch_array($datasett)){?>
+		<div id="wrapper">
+			<div id="bilder">
+				<p>
+					<img src="<?php echo $rad["bilde"]; ?>"><br /><br />
+				</p>
+			</div>
+			<div id="tekst">
+				<?php echo $rad["tekst"]; ?> <br />
+			</div>
 		</div>
+		<?php } ?>
 	</div>
 </body>
 
